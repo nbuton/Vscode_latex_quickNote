@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage{hyperref}
+\usepackage{import}
+\usepackage{chemfig}
+\usepackage{siunitx}
+\usepackage{minted}
+\usepackage{pdfpages}
+\usepackage{graphicx}
+\graphicspath{ {./inkscape_fig/rendu_pdf/} }
+
+\newcommand{\incfig}[1]{%
+    \def\svgwidth{\columnwidth}
+    \import{./inkscape_fig/rendu_pdf/}{#1.pdf_tex}
+}
+
+\title{Title}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+
+\end{document}

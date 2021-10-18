@@ -1,0 +1,33 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+d",
+        "command": "extension.multiCommand.execute",
+        "args": {
+            "sequence": [
+                {
+                    "command": "workbench.action.terminal.sendSequence",
+                    "args": {
+                        "text": "cp -n inkscape_fig/base_drawing.svg inkscape_fig/${selectedText}.svg; inkscape inkscape_fig/${selectedText}.svg \u000D"
+                    }
+                },
+                {
+                    "command": "workbench.action.closePanel",
+                },
+                {
+                    "command": "editor.action.insertSnippet",
+                    "args": {
+                        "snippet": "\\begin{figure}[ht]\u000D\\centering\u000D\\incfig{${TM_SELECTED_TEXT}.svg}\u000D\\caption{}\u000D\\label{fig:${TM_SELECTED_TEXT}}\u000D\\end{figure}"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "key": "ctrl+e",
+        "command": "workbench.action.terminal.sendSequence",
+        "args": {
+            "text": "inkscape inkscape_fig/${selectedText}.svg \u000D"
+        }
+    }
+]
