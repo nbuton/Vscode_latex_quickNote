@@ -6,6 +6,8 @@ latex documents.
 Basic tools to install
 ======================
 
+-   Clone this repository
+
 -   Install Visual studio code : IDE to edit latex
 
 -   Install LaTeX Workshop extention
