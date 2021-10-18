@@ -1,0 +1,4 @@
+{
+    "terminals.autorun": true,
+    "latex-workshop.latex.outDir": "%DIR%/output_compilation_latex/",
+}

@@ -1,0 +1,31 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "launch file watcher for inkscape conversion",
+            "type": "shell",
+            "command": "sh file_watcher_inkscape.sh",
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        },
+        {
+            "label": "launch file watcher for pdf output transfer",
+            "type": "shell",
+            "command": "sh file_watcher_pdf_output.sh",
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        },
+        {
+            "label": "launch shell",
+            "type": "shell",
+            "command": "sh",
+            "runOptions": {
+                "runOn": "folderOpen"
+            }
+        }
+    ]
+}

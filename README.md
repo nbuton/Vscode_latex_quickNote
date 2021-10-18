@@ -5,6 +5,10 @@ Also it help you to configure all you need to take quick notes. You can
 have shortcut to draw some figure that will be automaticly add to your
 latex documents.
 
+
+# Example of what you can do after the installation :
+![Alt Text](chemistry_example.gif)
+
 Basic tools to install
 ======================
 
