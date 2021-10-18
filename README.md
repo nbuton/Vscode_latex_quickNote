@@ -1,3 +1,5 @@
+For linux only
+
 This readme allow you to use Visual Studio Code in order to edit LaTeX.
 Also it help you to configure all you need to take quick notes. You can
 have shortcut to draw some figure that will be automaticly add to your
